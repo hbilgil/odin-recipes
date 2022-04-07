@@ -1,4 +1,103 @@
-p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
+#first-part {
+    font-size: 16px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: dotted;
+    border-color: grey;
+    background-color: aliceblue;
+    overflow: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-left-radius: 2ch;
+    border-top-right-radius: 2ch;
+    border-bottom-left-radius: 2ch;
+    border-bottom-right-radius: 2ch;
+}
+
+#second-part {
+    font-size: 16px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: dotted;
+    border-color: grey;
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-left-radius: 2ch;
+    border-top-right-radius: 2ch;
+    border-bottom-left-radius: 2ch;
+    border-bottom-right-radius: 2ch;
+}
+
+#third-part {
+    font-size: 16px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: dotted;
+    border-color: grey;
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-left-radius: 2ch;
+    border-top-right-radius: 2ch;
+    border-bottom-left-radius: 2ch;
+    border-bottom-right-radius: 2ch;
+}
+
+#fourth-part {
+    font-size: 18px;  
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.textwrap {
+    float: left;
+    margin: 8px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+  
+img {
+    border-style: solid;
+    height: auto;
+    width: 250px;
+    border-top-left-radius: 1ch;
+    border-top-right-radius: 1ch;
+    border-bottom-left-radius: 1ch;
+    border-bottom-right-radius: 1ch;
+}
+  
+a:link { 
+    text-decoration: none; 
+    color: black;
+}
+ 
+a:visited { 
+    text-decoration: none; 
+    color: black;
+}
+  
+a:hover { 
+    text-decoration: none; 
+    color: black;
+}
+  
+a:active { 
+    text-decoration: none; 
+    color: black;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: groove black;
+  transition-duration: 0.4s;
+}
+  
+.button:hover {
+    background-color:beige;
+    color: white;
 }

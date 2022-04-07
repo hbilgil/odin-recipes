@@ -1,4 +1,54 @@
-p {
+div {
+  font-size: 18px;  
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+}
+
+img {
+  border-style: solid;
+  height: auto;
+  width: 250px;
+}
+
+.inside {
+  border-style: ridge;
+  border-color: grey;
+  list-style: square ;
+  background-color: beige;
+  color: brown;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-top-left-radius: 1ch;
+  border-top-right-radius: 1ch;
+  border-bottom-left-radius: 1ch;
+  border-bottom-right-radius: 1ch;
+}
+
+a:link { 
+  text-decoration: none; 
+  color: black;
+}
+
+
+a:visited { 
+  text-decoration: none; 
+  color: black;
+}
+
+
+a:hover { 
+  text-decoration: none; 
+  color: black;
+}
+
+
+a:active { 
+  text-decoration: none; 
+  color: black;
 }
