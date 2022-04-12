@@ -14,20 +14,26 @@ img {
   width: 250px;
 }
 
-.inside {
+.box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box li {
+  width: 100px;
+  height: 90px;
   border-style: ridge;
   border-color: grey;
-  list-style: square ;
+  list-style: none ;
   background-color: beige;
-  color: brown;
   font-size: 24px;
   font-weight: bold;
-  margin-left: 500px;
-  margin-right: 500px;
   border-top-left-radius: 1ch;
   border-top-right-radius: 1ch;
   border-bottom-left-radius: 1ch;
   border-bottom-right-radius: 1ch;
+  padding: 10px;
+  text-align: center;
 }
 
 a:link { 
